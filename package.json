@@ -1,0 +1,16 @@
+{
+  "name": "joi-phone-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "joi", "phone", "mobile" ],
+  "author": "JM Ferraris",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^15.0.1",
+    "google-libphonenumber": "^3.2.2"
+  }
+}
