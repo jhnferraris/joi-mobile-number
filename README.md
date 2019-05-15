@@ -1,15 +1,15 @@
-# joi-phone-number
+# joi-mobile-number
 
 ## Usage
 
-`$ npm i joi-phone-number`
+`$ npm i joi-mobile-number`
 
 
 ```
-const phoneNumberSchema = require('joi-phone-number');
+const mobileNumberSchema = require('joi-mobile-number');
 
 const schema = {
-  phone: phoneNumberSchema.phone().isValidForRegion('PH')
+  phone: phoneNumberSchema.string().mobileNumber('PH')
 }
 
 ```

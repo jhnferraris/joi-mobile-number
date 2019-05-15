@@ -1,5 +1,5 @@
 {
-  "name": "joi-phone-number",
+  "name": "joi-mobile-number",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [ "joi", "phone", "mobile" ],
-  "author": "JM Ferraris",
+  "author": "John Michael Ferraris <contact@jhnferraris.dev>",
   "license": "MIT",
   "dependencies": {
     "@hapi/joi": "^15.0.1",
