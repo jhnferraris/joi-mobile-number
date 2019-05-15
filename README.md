@@ -12,7 +12,7 @@ Leverages [google/libphonenumber](https://www.npmjs.com/package/google-libphonen
 const mobileNumberSchema = require('joi-mobile-number');
 
 const schema = {
-  phone: phoneNumberSchema.string().mobileNumber('PH')
+  mobile_number: mobileNumberSchema.string().mobileNumber('PH')
 }
 
 ```
