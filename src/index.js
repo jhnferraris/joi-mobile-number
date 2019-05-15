@@ -5,7 +5,7 @@ module.exports = Joi.extend(joi => ({
   base: joi.string(),
   name: 'string',
   language: {
-    phone: 'did not seem to be a mobile number.'
+    mobileNumber: 'did not seem to be a mobile number.'
   },
   rules: [
     {
@@ -19,12 +19,11 @@ module.exports = Joi.extend(joi => ({
           // getNumberType === 1 means it is a Mobile Number
           // https://github.com/ruimarinho/google-libphonenumber/blob/master/src/phonenumberutil.js#L916
           if (!phoneUtil.isValidNumber(number) || phoneUtil.getNumberType(number) !== 1) {
-            return this.createError('phone', { v: value }, state, options);
+            return this.createError('string.mobileNumber', { v: value }, state, options);
           }
           return value;
         } catch (e) {
-          console.error(e);
-          return this.createError('phone', { v: value }, state, options);
+          return this.createError('string.mobileNumber', { v: value }, state, options);
         }
       }
     }
