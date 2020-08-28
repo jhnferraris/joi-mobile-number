@@ -6,11 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [ "joi", "phone", "mobile" ],
+  "keywords": [
+    "joi",
+    "phone",
+    "mobile"
+  ],
   "author": "John Michael Ferraris <contact@jhnferraris.dev>",
   "license": "MIT",
   "dependencies": {
     "@hapi/joi": "^15.0.1",
-    "google-libphonenumber": "^3.2.2"
+    "google-libphonenumber": "^3.2.12"
   }
 }
