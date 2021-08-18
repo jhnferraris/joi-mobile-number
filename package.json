@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "@hapi/joi": "^15.0.1",
-    "google-libphonenumber": "^3.2.12"
+    "google-libphonenumber": "^3.2.22"
   }
 }
